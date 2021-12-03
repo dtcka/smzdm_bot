@@ -51,7 +51,7 @@ class SMZDM_Bot(object):
 
 if __name__ == '__main__':
     sb = SMZDM_Bot()
-    cookies = os.environ["SMZDM_COOKIES"]
+    cookies = os.environ["COOKIES"]
     sb.load_cookie_str(cookies)
     res = sb.checkin()
     print(res)
