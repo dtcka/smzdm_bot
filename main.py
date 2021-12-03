@@ -38,7 +38,7 @@ class SMZDM_Bot(object):
 
     def checkin(self):
         """
-        签到函数
+        签到函数1
         """
         url = 'https://zhiyou.smzdm.com/user/checkin/jsonp_checkin'
         msg = self.session.get(url)
